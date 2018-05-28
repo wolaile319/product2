@@ -16,6 +16,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
     @GetMapping("index/{id}")
     public Result index(@PathVariable("id")Integer id){
-        return ResultUtil.success();
+        return ResultUtil.success("RRRRRR");
     }
 }
