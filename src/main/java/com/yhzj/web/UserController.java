@@ -35,4 +35,9 @@ public class UserController {
         return ResultUtil.success(userService.getById(id));
     }
 
+    @GetMapping("delById/{id}")
+    public Result delById(@PathVariable("id")Integer id) {
+        return ResultUtil.success(userService.delById(id));
+    }
+
 }

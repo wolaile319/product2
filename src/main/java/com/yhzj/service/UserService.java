@@ -13,4 +13,6 @@ public interface UserService {
     List<User> getAll();
     //通过id获取user对象
     User getById(Integer id);
+    //通过id来删除用户
+    int delById(Integer id);
 }
