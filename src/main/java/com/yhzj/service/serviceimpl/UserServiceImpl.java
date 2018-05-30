@@ -29,5 +29,12 @@ public class UserServiceImpl implements UserService {
         return userMapper.findById(id);
 
     }
+@Transactional(readOnly = false)
+    @Override
+    public int delById(Integer id) {
+        User user = userMapper.findById(id);
+        userMapper.delByIdUser(id);
+        return  userMapper.delByIdAccount(user.getAccount().getId());
+    }
 
 }

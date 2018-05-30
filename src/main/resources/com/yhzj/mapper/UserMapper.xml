@@ -28,4 +28,12 @@
         left join t_role t3 on t3.id =t2.role_id
         where t1.`id`=#{id}
     </select>
+    <!--通过id来删除用户-->
+    <delete id="delByIdUser" parameterType="int">
+        delete from t_user where id=#{id}
+    </delete>
+    <!--通过id来删除账户-->
+    <delete id="delByIdAccount">
+        delete from t_account where id={id}
+    </delete>
 </mapper>
