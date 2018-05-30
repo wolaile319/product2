@@ -6,6 +6,7 @@ import com.yhzj.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+import org.springframework.web.bind.annotation.GetMapping;
 
 import java.util.List;
 
@@ -22,4 +23,11 @@ public class UserServiceImpl implements UserService {
     public List<User> getAll() {
         return userMapper.findAll();
     }
+
+    @Override
+    public User getById(Integer id) {
+        return userMapper.findById(id);
+
+    }
+
 }
