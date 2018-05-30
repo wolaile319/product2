@@ -11,4 +11,6 @@ import java.util.List;
 public interface UserService {
     //获取所有用户
     List<User> getAll();
+    //通过id获取user对象
+    User getById(Integer id);
 }
