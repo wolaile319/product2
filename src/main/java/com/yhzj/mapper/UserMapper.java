@@ -19,4 +19,8 @@ public interface UserMapper {
     int delByIdUser(Integer id);
     //通过id删除对应的id
     int delByIdAccount(Integer id);
+    //更新用户表
+    void upDataUser(User user);
+    //更新账户表
+    void upDataAccount(User user);
 }

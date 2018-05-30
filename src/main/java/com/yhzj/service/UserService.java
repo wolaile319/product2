@@ -15,4 +15,6 @@ public interface UserService {
     User getById(Integer id);
     //通过id来删除用户
     int delById(Integer id);
+    //通过user实体更新数据
+    void upDateUser(User user);
 }
