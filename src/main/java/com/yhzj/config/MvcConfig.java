@@ -30,7 +30,7 @@ import java.util.List;
  */
 //webMvc控制
 @Configuration
-@ComponentScan({"com.yhzj.web","com.yhzj.aspect"})
+@ComponentScan({"com.yhzj.web","com.yhzj.aspect","com.yhzj.handle"})
 @EnableWebMvc//启用webmvc
 @EnableAspectJAutoProxy
 public class MvcConfig extends WebMvcConfigurerAdapter{
