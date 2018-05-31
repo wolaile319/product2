@@ -26,7 +26,24 @@ public class User {
     /**
      * 用户对应的账号
      */
+    private Account account;
+    private String password;
 
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public Account getAccount() {
+        return account;
+    }
+
+    public void setAccount(Account account) {
+        this.account = account;
+    }
 
     public String getName() {
         return name;
@@ -68,7 +85,6 @@ public class User {
     public void setPhone(String phone) {
         this.phone = phone;
     }
-
 
 
 
