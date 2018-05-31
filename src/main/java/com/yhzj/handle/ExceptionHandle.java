@@ -6,6 +6,7 @@ import com.yhzj.resultenum.ResultEnum;
 import com.yhzj.utils.ResultUtil;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
+import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -16,6 +17,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
  * @version 2018/5/27 19:24
  */
 @ControllerAdvice
+@Component
 public class ExceptionHandle {
     private final static Log log= LogFactory.getLog(ExceptionHandle.class);
     @ExceptionHandler(Exception.class)

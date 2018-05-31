@@ -1,7 +1,6 @@
 package com.yhzj.mapper;
 
 import com.yhzj.entity.User;
-import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
@@ -14,11 +13,6 @@ import java.util.List;
 public interface UserMapper {
     //查询所有用户
     List<User> findAll();
-
-    /**
-     * 根据account获取用户记录
-     * @param account
-     * @return
-     */
-    public User getLoginUser(@Param("account")String account);
+    //通过id查询用户
+    User findById(Integer id);
 }

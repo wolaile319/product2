@@ -20,4 +20,12 @@
         left join t_role t3 on t3.id =t2.role_id
         order by t1.id
     </select>
+    <!--通过用户id查询用户-->
+    <select id="findById" parameterType="Integer" resultMap="findAll">
+        select t1.`id`,t1.`name`,t1.`sex`,t1.`bron`,t1.`address`,t1.`phone`,t2.`id` account_id,t2.`name` account_name,t2.`state` account_state,t2.`password` account_password,t3.`id` `account_role_id`,t3.`name` `account_role_name`
+        from t_user t1
+        left join t_account t2 on t1.account_id=t2.id
+        left join t_role t3 on t3.id =t2.role_id
+        where t1.`id`=#{id}
+    </select>
 </mapper>

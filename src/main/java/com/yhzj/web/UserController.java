@@ -29,4 +29,14 @@ public class UserController {
     public Result getAll() {
         return ResultUtil.success(userService.getAll());
     }
+
+    @GetMapping("")
+    public Result getAll() {
+        return ResultUtil.success(userService.getAll());
+    }
+    @GetMapping("findById/{id}")
+    public Result getById(@PathVariable("id")Integer id) {
+        return ResultUtil.success(userService.getById(id));
+    }
+
 }
