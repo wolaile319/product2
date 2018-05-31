@@ -1,7 +1,6 @@
 package com.yhzj.interceptors;
 
 import com.alibaba.fastjson.JSON;
-import com.yhzj.entity.Result;
 import com.yhzj.resultenum.ResultEnum;
 import com.yhzj.utils.Constant;
 import com.yhzj.annotation.NoLogin;

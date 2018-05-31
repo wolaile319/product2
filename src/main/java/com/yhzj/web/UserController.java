@@ -1,8 +1,6 @@
 package com.yhzj.web;
 
 import com.yhzj.annotation.NoLogin;
-import com.yhzj.entity.Result;
-import com.yhzj.service.UserService;
 import com.yhzj.utils.ResultUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;

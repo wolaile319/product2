@@ -1,6 +1,5 @@
 package com.yhzj.handle;
 
-import com.yhzj.entity.Result;
 import com.yhzj.myexception.MyException;
 import com.yhzj.resultenum.ResultEnum;
 import com.yhzj.utils.ResultUtil;
