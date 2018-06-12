@@ -1,6 +1,6 @@
 package com.yhzj.entity;
 
-import cn.oa.HR.enums.ContractType;
+import com.yhzj.enums.ContractType;
 import lombok.Getter;
 import lombok.Setter;
 

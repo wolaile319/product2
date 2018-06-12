@@ -1,6 +1,6 @@
 package com.yhzj.entity;
 
-import cn.oa.HR.enums.Qualification;
+import com.yhzj.enums.Qualification;
 import lombok.Getter;
 import lombok.Setter;
 

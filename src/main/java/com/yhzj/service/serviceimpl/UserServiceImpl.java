@@ -1,4 +1,4 @@
-package com.yhzj.service.serviceimpl;
+/*package com.yhzj.service.serviceimpl;
 
 import com.yhzj.entity.User;
 import com.yhzj.mapper.UserMapper;
@@ -10,10 +10,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 import java.util.List;
 
-/**
+*//**
  * @author qinling
  * @version 2018/5/28 15:49
- */
+ *//*
 @Service
 @Transactional(readOnly = true)
 public class UserServiceImpl implements UserService {
@@ -43,4 +43,4 @@ public class UserServiceImpl implements UserService {
         userMapper.upDataAccount(user);
     }
 
-}
+}*/

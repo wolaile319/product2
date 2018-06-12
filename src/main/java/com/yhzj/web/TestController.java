@@ -1,5 +1,6 @@
 package com.yhzj.web;
 
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
@@ -8,7 +9,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * @author mixue
  * @create 2018-06-12 10:34
  */
-@RequestMapping("/test")
+@RequestMapping("/staff")
 public class TestController {
-
+    @GetMapping("/list")
+    public String test(){
+        return "staff/list";
+    }
 }
