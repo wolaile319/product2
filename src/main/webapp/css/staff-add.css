@@ -1,0 +1,220 @@
+@charset "utf-8";
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    font-size: 12px;
+    font-family: "微软雅黑";
+    color:#666;
+}
+a:hover{
+    text-decoration: none;
+}
+ul,
+ol,
+dl,
+li{
+    list-style: none;
+    display: inline-block;
+}
+/*************************************************************************/
+.body-detail .div1{
+    width: 100%;
+    height: 30px;
+}
+.body-detail .div1>a{
+    display: inline-block;
+    width: 60px;
+    height: 16px;
+    line-height: 16px;
+    margin: 7px 0;
+    font-size: 14px;
+    color: #666666;
+    text-align: center;
+    float: left;
+    border-right: 1px solid #c2c2c2;
+}
+.body-detail .div1>a:hover{
+    background-color: #e56281;
+    color: white;
+    border-radius: 6px;
+}
+.body-detail .div1>p{
+    margin-left: 10px;
+    float: left;
+    width: 100px;
+    line-height: 30px;
+    height: 30px;
+    font-size: 14px;
+    color: #262626;
+}
+.body-detail .div2{
+    clear: both;
+    width: 100%;
+    position: relative;
+    padding-top: 10px;
+}
+.body-detail .div2 .div2left{
+    width: 7%;
+    padding-right: 3px;
+    border-right: 1px solid #eaeaea;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.body-detail .div2 .div2left>ul{
+    width: 100%;
+}
+.body-detail .div2 .div2left>ul>li{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    cursor: pointer;
+}
+.body-detail .div2 .div2left>ul>li>a{
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    text-align: right;
+    padding-right: 3px;
+    border-bottom: 1px dashed #c9c9c9;
+}
+.body-detail .div2 .div2left>ul>li>a:hover{
+    background-color: #e56281;
+    color: white;
+}
+/*******************************************************/
+.body-detail .div2 .div2right{
+    width: 90%;
+    height: 430px;
+    overflow-y: scroll;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.body-detail .div2 .div2right::-webkit-scrollbar {/*滚动条整体样式*/
+    width: 6px;     /*高宽分别对应横竖滚动条的尺寸*/
+    height: 1px;
+}
+.body-detail .div2 .div2right::-webkit-scrollbar-thumb {/*滚动条里面小方块*/
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 5px rgba(243, 243, 243, 0.2);
+    background: #f19e9f;
+}
+.body-detail .div2 .div2right::-webkit-scrollbar-track {/*滚动条里面轨道*/
+    -webkit-box-shadow: inset 0 0 5px rgba(245, 245, 245, 0.2);
+    border-radius: 10px;
+    background: #f5f5f5;
+}
+.body-detail .div2 .div2right form{
+    width: 100%;
+}
+.div2right form .base-info{
+    width: 100%;
+}
+.div2right form .base-info>p{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #f8f8f8;
+    padding-left: 20px;
+    border-left: 3px solid #e56281;
+    color: #e56281;
+    font-size: 13px;
+    font-weight: bold;
+}
+.div2right form .base-info>label{
+    display: inline-block;
+    width: 40%;
+    height: 20px;
+    line-height: 20px;
+    float: left;
+    font-size: 12px;
+    color: #666666;
+    text-align: right;
+    margin-bottom: 10px;
+}
+.div2right form .base-info>label>span{
+    margin-right: 3px;
+    color: #ff070e;
+}
+.div2right form .base-info>label>label>.input-radio{
+    width: 15px;
+    height: 13px;
+    margin: 0 4px;
+}
+.div2right form .base-info>label>textarea{
+    width: 200px;
+    height: 60px;
+    border: 1px solid #e2e2e2;
+}
+.div2right form .base-info>label>input,select{
+     width: 200px;
+     height: 20px;
+     border: 1px solid #e2e2e2;
+ }
+.div2right form .base-info>label>input:focus,select:focus,textarea:focus{
+    border: 1px solid #f19e9f;
+    box-shadow: 0px 0px 2px #f19e9f;
+}
+.div2right form .base-info>.div-photo{
+    width: 20%;
+    height: 250px;
+    border: 1px solid #cdcdcd;
+    float: right;
+    margin-bottom: 10px;
+    position: relative;
+    margin-right: 20%;
+}
+.div2right form .base-info>.div-photo>p{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #5FB878;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    margin: 0;
+}
+.div2right form .base-info>.div-photo>p>input{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+.div2right form .base-info>.div-photo>img{
+    width: 100%;
+    height: 100%;
+}
+.div2right form .base-info>h1{
+    clear: both;
+}
+
+
+/************************************************底部保存按钮*/
+.hr-footer>a{
+    display: inline-block;
+    width: 60px;
+    height: 35px;
+    line-height:35px;
+    background-color: #4e9b62;
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+    margin-left: 45%;
+    margin-top: 5px;
+    position: fixed;
+    bottom: 5px;
+    right: 600px;
+}

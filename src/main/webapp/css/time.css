@@ -1,0 +1,213 @@
+.time_tou{
+    width:1149px;
+    height:62px;
+    border-bottom: 1px solid #ccc;
+}
+.time_zhong{
+    width:500px;
+    margin:0 auto;
+}
+.time_zhong>.time_tou_1{
+    cursor: pointer;
+    float: left;
+    width:60px;
+    height:60px;
+    border-bottom: 2px solid rgb(229,89,129);
+    text-align: center;
+    line-height: 60px;
+    color: rgb(229,89,129);
+    margin:0 20px;
+}
+.time_tou1{
+    height:40px;
+    border-bottom: 1px solid #ccc;
+}
+.time_tou1>.time_tou1_a{
+    display: inline-block;
+    width:150px;
+    height:40px;
+    line-height: 40px;
+    text-align: center;
+    float: left;
+    color: rgb(229,89,129);
+    margin-bottom: 0;
+}
+.time_biao{
+    margin:40px 0 0 40px;
+}
+.time_biao_tou{
+    height:30px;
+    margin-bottom: 30px;
+}
+.time_biao_tou>h4{
+    width:150px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 30px;
+    height: 30px;
+    float: left;
+    color: #555;
+    margin-bottom: 30px;
+}
+.time_biao_tou>a{
+    display: inline-block;
+    float: right;
+    width:120px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 30px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(229,89,129);
+    color: #fff;
+    margin:0 20px 0 0;
+}
+.time_biao_tou>.a2{  width:100px;  }
+.time_biao_tou>.a3{  width:70px;  }
+.time_biao_tou>.a4{  width:100px;  }
+.time_biao>h3{
+    width:100px;
+    height:30px;
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(229,89,129);
+    margin-bottom: 30px;
+}
+.time_chaxun{  height:120px;  }
+.time_chaxun>form{
+    height:90px;
+    width:940px;
+}
+.time_chaxun>form>.pi{
+    height:30px;
+    margin-right:5px;
+    text-align: center;
+    line-height: 30px;
+    color: #333;
+    float: left;
+}
+.time_chaxun>form>.pp{
+    margin-top: 20px;
+    clear: left;
+    margin-left: 14px;
+}
+.time_chaxun>form>.input1{
+    height:30px;
+    width:160px;
+    margin-right:20px;
+    line-height: 30px;
+    float: left;
+    padding:0 5px;
+    border:1px solid #ccc;
+    border-radius: 5px;
+}
+.time_chaxun>form>.input1:hover{
+    border:1px solid rgb(229,89,129);
+}
+option{  color: #aaa;  }
+
+.time_chaxun>form>.input2{
+    margin-top: 20px;
+}
+.time_chaxun>form>.input3{
+    height:28px;
+}
+.time_chaxun>form>button{
+    width:50px;
+    height:30px;
+    border-radius: 5px;
+    border:1px solid rgb(229,89,129);
+    background-color: rgb(229,89,129);
+    color: #fff;
+    margin: 20px 20px 0 0;
+    cursor: pointer;
+}
+.time_chaxun>form>.ac{
+    cursor: pointer;
+    display: inline-block;
+    width:50px;
+    text-align: center;
+    line-height: 28px;
+    height:28px;
+    border-radius: 5px;
+    border:1px solid rgb(229,89,129);
+    color: #555;
+    margin-bottom: 0px;
+}
+.time_chaxun>.dongtai{
+    width:70px;
+    text-align: center;
+    border-left: 2px solid rgb(229,89,129);
+    color: #545454;
+    margin-bottom: 20px;
+}
+.lishi_kqb_sc{
+    height:300px;
+    margin-top:35px;
+}
+.lishi_kqb_sc>p{
+    width:110px;
+    height:30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 5px;
+    background-color: rgb(229,89,129);
+    color: #fff;
+    float: right;
+    margin:0 70px 20px 0;
+}
+.lishi_kqb_sc>.kqb_nr{
+    padding:0 20px;
+    height:300px;
+}
+.layui-input-inline{
+    margin:35px 50px;
+    width:90px;
+}
+.layui-input-inline>input{
+    cursor: pointer;
+}
+.kq_bb_excel{
+    height:180px;
+    margin-left: 50px;
+}
+.kq_bb_excel>.bb_1{
+    float: left;
+    margin:0 50px 50px 0;
+    width:310px;
+    height:132px;
+    border:1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+}
+.kq_bb_excel>.bb_1:hover{
+    box-shadow: 0px 0px 5px #ccc;
+}
+.kq_bb_excel>.bb_1>.bb_img{
+    float: left;
+    width:110px;
+    height:132px;
+    line-height: 132px;
+    text-align: center;
+}
+.kq_bb_excel>.bb_1>.bb_text{
+    text-align: left;
+    height:70px;
+    line-height: 80px;
+    font-weight: bold;
+}
+.kq_bb_excel>.bb_1>.bb_xiazai{
+    float: left;
+    width:70px;
+    text-align: center;
+    height:30px;
+    line-height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #444;
+    cursor: pointer;
+}
+.kq_bb_excel>.bb_1>.bb_xiazai:hover{
+    border: 1px solid rgb(229,89,129);
+}

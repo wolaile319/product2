@@ -1,0 +1,405 @@
+@charset "utf-8";
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "微软雅黑";
+}
+a{
+    text-decoration: none;
+    font-size: 12px;
+    color:#666;
+}
+a:hover{
+    text-decoration: none;
+}
+ul,
+ol,
+dl,
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+
+/*****************************************************离职管理页面css样式*******************************/
+.body-detail .div1{
+    width: 100%;
+    height: 30px;
+}
+.body-detail .div1>p{
+    width: 10%;
+    height: 100%;
+    line-height: 300%;
+    color: #e56281;
+    font-weight: bold;
+    font-size: 16px;
+    float: left;
+    margin-left: 5px;
+    margin-bottom: 0;
+}
+.body-detail .div1 a{
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    float: right;
+    background-color: #e56281;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+/**************************************************离职/待离职员工列表*/
+.body-detail .datas{
+    width: 73%;
+    height: 400px;
+    float: left;
+    margin-top: 30px;
+}
+.layui-table th{
+    font-size: 12px;
+    color: #666666;
+    font-weight: bold;
+    border: none;
+}
+.layui-table thead tr{
+    background-color: #e4eeeb;
+}
+
+.body-detail .datas .dlz{
+    width: 100%;
+    height: 50%;
+}
+.body-detail .datas .dlz>p{
+    width: 50%;
+    height: 15px;
+    line-height: 15px;
+    border-left: 5px solid #e56281;
+    font-size: 13px;
+    color: #696969;
+    margin: 9px 0;
+    float: left;
+}
+.body-detail .datas .dlz>a{
+    display: inline-block;
+    width: 30%;
+    height: 50px;
+    line-height: 50px;
+    text-align: right;
+    font-size: 12px;
+    color: #9e9e9e;
+    float: right;
+}
+/*****************************************离职动态***/
+.body-detail .leave-dynamic{
+    width: 21%;
+    height: 400px;
+    float: right;
+    margin-top: 30px;
+}
+.body-detail .leave-dynamic>p{
+    width: 100%;
+    height: 15px;
+    line-height: 15px;
+    font-size: 13px;
+    color: #333333;
+    border-left: 5px solid #e56281;
+    margin: 10px 0;
+}
+.body-detail .leave-dynamic>ul{
+    width: 100%;
+}
+.body-detail .leave-dynamic>ul>li{
+    width: 100%;
+    height: 40px;
+    line-height: 20px;
+    font-size: 12px;
+    margin-left: 10px;
+    color: #5FB878;
+}
+.body-detail .leave-dynamic>ul>li:before{
+    content: '';
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #ea9566;margin-right: 8px;
+}
+
+.body-detail .leave-dynamic>ul>li>span{
+    float: right;
+    color: #999999;
+    font-size: 12px;
+}
+
+/*******************************************************模态框中自定义样式**/
+.modal-body>p{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+.modal-body>p:nth-child(1)>input{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #bfbfbf;
+    border-radius: 5px;
+}
+.modal-body>p:nth-child(1)>input:hover{
+    border: 1px solid #e56281;
+    box-shadow: 0px 0px 2px #f19e9f;
+}
+.modal-body .name-list{
+    height: 70px;
+    width: 100%;
+   /* width: 50%;
+    float: left;*/
+}
+.modal-body .name-list>label{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.modal-body .name-list>label>input{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-top: 0;
+    margin-right: 20px;
+    opacity: 0;
+
+}
+.modal-body .name-list>label>span{
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 5px;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #e4e6d8;
+    border-radius: 8px;
+    padding: 3px 3px;
+}
+/**********************************************自定义单选框样式**/
+.modal-body .name-list>label>span>i{
+    display: inline-block;
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    /*background-color: #5FB878;*/
+}
+.name-list>label>input:checked+span{
+    border: 1px solid #e56281;
+    box-shadow: 0px 0px 3px #f19e9f;
+}
+.name-list>label>input:checked+span>i{
+    background: #e56281;
+}
+
+.name-list>label>.p1{
+    position: absolute;
+    left: 50px;
+    top: 0;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #b6e3e3;
+    border-radius: 15px;
+    font-size: 12px;
+    color: white;
+    font-weight: normal;
+}
+.name-list>label>.p2{
+    position: absolute;
+    left: 90px;
+    top: 0;
+    width: 100px;
+    height: 16px;
+    line-height: 16px;
+    font-size: 13px;
+    font-weight: normal;
+    color: #5f5f5f;
+}
+.name-list>label>.p3{
+    position: absolute;
+    left: 90px;
+    top: 16px;
+    width: 100px;
+    height: 16px;
+    line-height: 16px;
+    font-size: 12px;
+    font-weight: normal;
+    color: #898d8b;
+}
+.name-list>label>.p4{
+    position: absolute;
+    left: 90px;
+    top: 32px;
+    width: 100px;
+    height: 16px;
+    line-height: 16px;
+    font-size: 12px;
+    font-weight: normal;
+    color: #898d8b;
+}
+.name-list>label>.p5{
+    position: absolute;
+    right: 20px;
+    top: 3px;
+    font-size: 12px;
+    color: #999999;
+}
+/*******************************************************************办理离职页面css*/
+.body-detail .div2{
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+}
+.body-detail .div2>a:first-child{
+    border-right: 1px solid #caccbe;
+    width: 60px;
+}
+.body-detail .div2>a{
+    display: inline-block;
+    width: 70px;
+    margin: 7px 0;
+    height: 16px;
+    line-height: 16px;
+    font-size: 13px;
+    text-align: center;
+    color: #4d4d4d;
+}
+.body-detail .div2>a:hover{
+    color: #e56281;
+}
+.body-detail .div2>span{
+
+}
+/***************************************/
+.body-detail .div3{
+    width: 100%;
+    margin-top: 10px;
+}
+.body-detail .div3>p:first-of-type{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: #333333;
+}
+.body-detail .div3>p:first-of-type>span{
+    font-size: 15px;
+    margin-left: 8px;
+    color: #91d2ff;
+}
+.body-detail .div3>p:nth-of-type(2){
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    font-size: 13px;
+    color: #747474;
+    text-align: center;
+}
+
+.body-detail .div3 form{
+    width: 100%;
+    position: relative;
+}
+.body-detail .div3 form>span{
+    display: inline-block;
+    width: 45%;
+    height: 30px;
+    float: left;
+    margin: 8px 0;
+    text-align: right;
+    position: relative;
+}
+.body-detail .div3 form>span>span{
+    position: absolute;top: 10px;
+    right: 10px;
+    color: #999999;
+}
+.body-detail .div3 form>span>i{
+    display: inline-block;
+    width: 15px;
+    height: 20px;
+    line-height: 20px;
+    text-align: left;
+    color: red;
+}
+.body-detail .div3 form>span>input,textarea{
+    width: 300px;
+    height: 30px;
+    border: 1px solid #e4e6d8;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.body-detail .div3 form>span>input:focus,textarea:focus{
+    border: 1px solid #e56281;
+    box-shadow:  0px 0px 2px #f19e9f;
+}
+
+.body-detail .div3 form>span>input:focus+span{
+    color: #e56281;
+}
+
+.body-detail .div3 form>span>input::placeholder,textarea::placeholder{
+    color: #d0d2c4;
+    font-size: 12px;
+}
+
+.body-detail .div3 form>.textarea-span{
+    width: 90%;
+    height: 60px;
+}
+.body-detail .div3 form>.textarea-span>textarea{
+    width: 80%;
+    height: 60px;
+    line-height: 30px;
+}
+.body-detail .div3 form>a{
+    display: inline-block;
+    width: 60px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border: 1px solid #999999;
+    border-radius: 10px;
+    font-size: 14px;
+}
+.body-detail .div3 form>a:first-of-type{
+    position: absolute;
+    top: 200px;
+    left: 400px;
+}
+.body-detail .div3 form>a:first-of-type:hover{
+    border: 1px solid #e56281;
+    color: #e56281;
+}
+.body-detail .div3 form>a:nth-of-type(2):hover{
+    border: 1px solid #ff6b92;
+    background-color: #ff6b92;
+    color: white;
+}
+.body-detail .div3 form>a:nth-of-type(2){
+    position: absolute;
+    top: 200px;
+    left: 480px;
+    border: 1px solid #e56281;
+    background-color: #e56281;
+    color: white;
+}

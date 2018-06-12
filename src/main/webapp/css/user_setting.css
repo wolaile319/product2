@@ -1,0 +1,439 @@
+.user_setting_zuo{
+    float: left;
+    width:150px;
+    height:1000px;
+    border-right:1px solid #ddd;
+    padding:20px 0 20px 20px;
+}
+/*····················个人设置左*/
+.st_zuo1{
+    height:300px;
+}
+.st_zuo1>p{
+    height:40px;
+    width:130px;
+    color: #444;
+    line-height: 30px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+}
+.st_zuo1>a{
+    display: block;
+    height:40px;
+    line-height: 40px;
+    margin-top:5px;
+    padding-left:36px;
+    color: #aaa;
+}
+.st_zuo1>a:hover{
+    background-color: #eee;
+    color: rgb(229,89,129);
+}
+/*·················个人设置右*/
+.user_setting_you {
+    float: left;
+    padding:20px 0 20px 20px;
+    height:1000px;
+}
+.user_setting_you>p{
+    height:40px;
+    color: #444;
+    width:956px;
+    line-height: 20px;
+    font-size: 17px;
+    font-weight: 600;
+    border-bottom: 1px solid #ddd;
+}
+.st_edit{
+    width:550px;
+    height:106px;
+    border-radius: 10px;
+    padding:23px 25px 15px 25px;
+    margin:20px;
+    border:1px solid #ccc;
+    margin-bottom:50px;
+}
+.st_edit>.a1{
+    display: block;
+    cursor: pointer;
+    height: 25px;
+    font-size: 14px;
+    line-height: 25px;
+    float: right;
+    color:rgb(229, 98, 129);
+}
+.st_edit_nr{
+    height:106px;
+}
+.st_edit_1{
+    float: left;
+    width:80px;
+    height: 106px;
+    margin-right: 30px;
+}
+.st_edit_1>img{
+    width:80px;
+    height:80px;
+    border-radius: 50%;
+}
+.st_edit_1>a{
+    display: block;
+    color: #bbb;
+    font-size: 12px;
+    margin-top:7px;
+    text-align: center;
+}
+.st_edit_2{
+    float: left;
+    width:400px;
+    height: 106px;
+}
+.st_edit_2>p{
+    height: 60px;
+    line-height: 60px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: '宋体';
+}
+.st_edit_2>.edit_xx{
+    height:40px;
+    margin-top:6px;
+}
+.edit_xx>p{
+    height:40px;
+    float: left;
+    font-size: 14px;
+    line-height: 200%;
+}
+.edit_xx>.p1{  width:230px;  }
+.edit_xx>.p2{  width:170px;  }
+.edit_xx>p>span{  color: #bbb;  }
+.edit_zhanghao{
+    width:100%;
+    height:300px;
+}
+.edit_zhanghao>p{
+    margin:15px 0 30px 15px;
+    font-size: 12px;
+}
+.edit_zhanghao>div{
+    padding-left:30px;
+    height:250px;
+}
+.edit_zhanghao>div>.div1{
+    float: left;
+    width:70px;
+    text-align: right;
+}
+.edit_zhanghao>div>.div2{
+    width:120px;
+    margin-left: 30px;
+    text-align: left;
+}
+.edit_zhanghao>div>h6{
+    font-size: 12px;
+    clear:both;
+    display: none;
+}
+.edit_zhanghao>div>.div2>form{
+    display: none;
+}
+.edit_zhanghao>div>.div2>form>input{
+    height: 25px;
+    width:170px;
+    border:1px solid rgb(229, 98, 129);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding:0 10px;
+}
+.edit_zhanghao>div>.div2>form>button{
+    float: right;
+    height:25px;
+    width: 50px;
+    color: #fff;
+    line-height: 25px;
+    border:1px solid rgb(229,98,129);
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(229,98,129);
+    margin:0 20px 0 0px;
+}
+.edit_zhanghao>div>.div2>form>a{
+    float: right;
+    cursor: pointer;
+    display: inline-block;
+    height:23px;
+    width: 48px;
+    text-align: center;
+    line-height: 23px;
+    color: #bbb;
+    border:1px solid rgb(229,98,129);
+    border-radius: 5px;
+}
+.edit_zhanghao>div>.div2>p>span{
+    display: block;
+    width:45px;
+    height: 25px;
+    font-size: 14px;
+    border-radius: 3px;
+    background-color: #bbb;
+    color: #fff;
+}
+.edit_zhanghao>div>.div1>p,a{
+    color: #4d4d4d;
+    margin-bottom: 20px;
+    height: 25px;
+    font-size: 14px;
+}
+.edit_zhanghao>div>.div1>a{
+    display: block;
+    color: rgb(229, 98, 129);
+}
+.dianji_edit{
+    display: none;
+    width: 550px;
+    height: 280px;
+    border-radius: 10px;
+    padding: 23px 25px 15px 25px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 50px;
+    background-color: #eee;
+}
+.edit_tx{
+    height: 300px;
+    margin-right: 50px;
+}
+.dianji_edit>form{
+    width:420px;
+    float: left;
+    padding-top:15px;
+}
+.dianji_edit>form>.biaodan{
+    width:300px;
+    height: 30px;
+    margin-bottom: 40px;
+}
+.biaodan>p{
+    float: left;
+    width:50px;
+    height: 30px;
+    text-align: right;
+    line-height: 30px;
+    color: #ccc;
+    margin-right: 30px;
+}
+.biaodan>p>span{  color: red;  }
+.biaodan>input{
+    width:190px;
+    height:30px;
+    border:1px solid #ccc;
+    border-radius: 5px;
+    padding:0 10px;
+}
+.biaodan>.button1{
+    width:50px;
+    float: left;
+    height:30px;
+    border-radius:5px;
+    border:1px solid rgb(229,89,129);
+    color: #fff;
+    background-color: rgb(229,89,129);
+    margin-right:15px;
+    cursor: pointer;
+}
+.biaodan>.p1{
+    float: left;
+}
+.biaodan>.button2{
+    float: left;
+    text-align: center;
+    display: inline-block;
+    width:48px;
+    height:28px;
+    line-height: 28px;
+    border-radius:5px;
+    border:1px solid #bbb;
+    color: #bbb;
+    background-color: #fff;
+    margin-right:15px;
+    cursor: pointer;
+}
+.biaodan>.button2:hover{
+    border:1px solid rgb(229,89,129);
+}
+/*·············修改手机号*/
+.xiugai{
+    width:450px;
+    height: 350px;
+    padding:25px 15px 15px;
+}
+.xiugai>form>.gg{
+    height:30px;
+    width:450px;
+    margin-bottom: 30px;
+}
+.xiugai>form>.gg>p{
+    float: left;
+    height:30px;
+    line-height: 30px;
+    width:70px;
+    color: #222;
+    text-align: right;
+}
+.xiugai>form>.gg>p>span{
+    color: red;
+}
+.xiugai>form>.gg>input{
+    margin-left: 20px;
+    float: left;
+    height:30px;
+    width:200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding:0 5px;
+}
+.xiugai>form>.gg>.jinyong{
+    background-color: #eee;
+}
+.xiugai>form>.gg>a{
+    margin-left: 20px;
+    float: left;
+    display: block;
+    text-align: center;
+    width:100px;
+    height:30px;
+    line-height: 30px;
+    border-radius: 5px;
+    color: #aaa;
+    background-color: #eee;
+}
+.xiugai>form>.xian{
+    border-bottom:1px solid #ddd;
+}
+.xiugai>form>button{
+    float: right;
+    width:50px;
+    height:30px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 30px;
+    border:1px solid rgb(229,89,129);
+    margin-right: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.xiugai>form>a{
+    float: right;
+    width:48px;
+    height:28px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 28px;
+    border:1px solid rgb(229,89,129);
+    margin-right: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.xiugai>form>.b1{
+    margin-bottom: 0;
+    display: inline-block;
+    color: rgb(229,89,129);
+    background-color: #fff;
+}
+.xiugai>form>.b2{
+    background-color: rgb(229,89,129);
+    color: #fff;
+}
+/*···································修改密码*/
+.user_setting_you>.xgmm>span{
+    font-size: 13px;
+    font-weight:normal;
+}
+.xg_jd{
+    margin-top:30px;
+    padding-left: 50px;
+    height:50px;
+}
+.xg_jd>.jd_py{
+    float: left;
+    width:25px;
+    height:25px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 25px;
+    margin-right: 10px;
+    border: 1px solid rgb(229,89,129);
+}
+.xg_jd>.jd_p1{
+    color: #fff;
+    background-color: rgb(229,89,129);
+}
+.xg_jd>.jd_p3{
+    color: #bbb;
+    background-color: #fff
+}
+.xg_jd>.jd_p2{
+    float: left;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    margin-right: 5px;
+}
+.xg_jd>.jd_yan{  color: #bbb;  }
+.xg_dx{
+    margin-top: 30px;
+    padding-left: 50px;
+}
+.xg_dx>form>div{
+    width:500px;
+    height: 70px;
+}
+.xg_dx>form>div>.yzm{
+    float: left;
+    width:60px;
+    height:30px;
+    line-height: 30px;
+    text-align: right;
+    margin-right: 30px;
+    color: #0C0C0C;
+}
+.xg_dx>form>div>.yzm>.span{  color: red;  }
+.xg_dx>form>div>input{
+    float: left;
+    width:180px;
+    height:30px;
+    border:1px solid #ccc;
+    padding:0 10px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.xg_dx>form>div>input:hover{
+    border:1px solid rgb(229,89,129);
+}
+.xg_dx>form>div>.hq_yzm{
+    float: left;
+    width: 82px;
+    height: 30px;
+    cursor: pointer;
+    line-height: 30px;
+    text-align: center;
+    color: #bbb;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #eee;
+}
+.xg_dx>form>div>a{
+    display: inline-block;
+    width:60px;
+    height:30px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 30px;
+    background-color: rgb(229,89,129);
+    color: #fff;
+}
+
+

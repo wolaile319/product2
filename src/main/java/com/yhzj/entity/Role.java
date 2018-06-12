@@ -1,23 +1,21 @@
 package com.yhzj.entity;
 
+import lombok.Getter;
+import lombok.Setter;
+
+import java.util.List;
+
 /**
- * 角色实体类
- * @author qinling
- * @version 2018/5/13 12:03
+ * 描述:
+ * 用户角色
+ *
+ * @author mixue
+ * @create 2018-06-06 18:06
  */
-
+@Getter
+@Setter
 public class Role extends BaseEntity{
-    /**
-     * 角色名称
-     */
     private String name;
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
+    private String remark;
+    private List<Menu> menus;
 }
