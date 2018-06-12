@@ -1,6 +1,6 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" %>
-<%@include file="/views/comon/header.jsp"%>
-<link rel="stylesheet" href="css/staff-list.css">
+<%@include file="/WEB-INF/views/comon/header.jsp"%>
+<link rel="stylesheet" href="/css/staff-list.css">
 
     <div class="body-detail">
         <div class="div1">
@@ -100,7 +100,7 @@
             <div class="modal-body" >
                 <h5 style="color: #e56281">温馨提示<span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span></h5>
                 <p style="font-size: 12px;color: #999999">请查看下面表格，可支持在职/离职员工；存在表格列举问题的花名册将无法导入。</p>
-                <img src="img/hr-example1.png">
+                <img src="/img/hr-example1.png">
             </div>
             <div class="modal-footer">
                 <p>如遇到问题，请使用标准模板<a href="#">下载标准模板</a></p>
@@ -127,4 +127,4 @@
     }
 </script>
 
-<%@include file="/views/comon/footer.jsp"%>
+<%@include file="/WEB-INF/views/comon/footer.jsp"%>

@@ -1,7 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" %>
 <!--离职管理-->
-<%@include file="/views/comon/header.jsp"%>
-<link rel="stylesheet" href="css/staff-lzgl.css">
+<%@include file="/WEB-INF/views/comon/header.jsp"%>
+<link rel="stylesheet" href="/css/staff-lzgl.css">
 
 <div class="body-detail">
     <div class="div1">
@@ -11,7 +11,7 @@
         <a href="#">手动离职</a>
     </div>
     <%--<div class="no-data">
-        <img src="img/hr-example3.png">
+        <img src="/img/hr-example3.png">
         <p>无待离职及已离职人员</p>
     </div>--%>
 
@@ -132,7 +132,7 @@
     }
 </script>
 
-<%@include file="/views/comon/footer.jsp"%>
+<%@include file="/WEB-INF/views/comon/footer.jsp"%>
 
 
 

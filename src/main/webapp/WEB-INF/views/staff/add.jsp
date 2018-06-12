@@ -1,6 +1,6 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" %>
-<%@include file="/views/comon/header.jsp"%>
-<link rel="stylesheet" href="css/staff-add.css">
+<%@include file="/WEB-INF/views/comon/header.jsp"%>
+<link rel="stylesheet" href="/css/staff-add.css">
 
     <div class="body-detail">
         <div class="div1">
@@ -25,7 +25,7 @@
                         <p>基本信息</p>
                         <label><span>*</span>显示名：<input type="text" name="name" id="name"/></label>
                         <div class="div-photo">
-                            <img src="img/man-head.jpg">
+                            <img src="/img/man-head.jpg">
                             <p>上传<input type="file" name="photo" id="photo"/></p>
                         </div>
                         <label>姓：<input type="text" name="surname" id="surname"/></label>
@@ -183,15 +183,15 @@
                             <label><input type="radio" name="degree_status" value="否" class="input-radio"/>否</label>
                         </label>
                         <div class="div-photo">
-                            <img src="img/education.jpg" style="height: 180px">
+                            <img src="/img/education.jpg" style="height: 180px">
                             <p>上传<input type="file" name="diploma_photo1" id="diploma_photo1"/></p>
                         </div>
                         <div class="div-photo">
-                            <img src="img/education.jpg" style="height: 180px">
+                            <img src="/img/education.jpg" style="height: 180px">
                             <p>上传<input type="file" name="diploma_photo2" id="diploma_photo2"/></p>
                         </div>
                         <div class="div-photo">
-                            <img src="img/education.jpg" style="height: 180px">
+                            <img src="/img/education.jpg" style="height: 180px">
                             <p>上传<input type="file" name="degree_photo" id="degree_photo"/></p>
                         </div>
                         <h1></h1>

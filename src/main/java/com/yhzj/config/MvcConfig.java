@@ -43,7 +43,7 @@ public class MvcConfig extends WebMvcConfigurerAdapter{
        //配置视图类
         viewResolver.setViewClass(JstlView.class);
         //设置视图目录
-        viewResolver.setPrefix("/WEB-INF/view/");
+        viewResolver.setPrefix("/WEB-INF/views/");
         //设置视图文件后缀
         viewResolver.setSuffix(".jsp");
         return viewResolver;

@@ -237,7 +237,7 @@ header{
 .body-title2-bottom{
     width: 100%;
     height: 15px;
-    background: url("../img/hr-example2.png") repeat;
+    background: url("/img/hr-example2.png") repeat;
 }
 
 .body-detail{

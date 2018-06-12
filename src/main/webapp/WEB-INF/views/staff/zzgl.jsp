@@ -1,7 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" %>
 <!--转正管理-->
-<%@include file="/views/comon/header.jsp"%>
-<link rel="stylesheet" href="css/staff-zzgl.css">
+<%@include file="/WEB-INF/views/comon/header.jsp"%>
+<link rel="stylesheet" href="/css/staff-zzgl.css">
     <div class="body-detail">
         <div class="div1">
             <p>待转正 0 人</p>
@@ -9,7 +9,7 @@
             <a href="#">延长试用期</a>
         </div>
         <div class="no-data">
-            <img src="img/hr-example3.png">
+            <img src="/img/hr-example3.png">
             <p>无试用期人员</p>
         </div>
        <%-- <div class="datas">
@@ -41,4 +41,4 @@
     });
 </script>
 
-<%@include file="/views/comon/footer.jsp"%>
+<%@include file="/WEB-INF/views/comon/footer.jsp"%>

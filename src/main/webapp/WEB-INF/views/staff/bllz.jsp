@@ -1,7 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" %>
 <!--办理离职-->
-<%@include file="/views/comon/header.jsp"%>
-<link rel="stylesheet" href="css/staff-lzgl.css">
+<%@include file="/WEB-INF/views/comon/header.jsp"%>
+<link rel="stylesheet" href="/css/staff-lzgl.css">
 <div class="body-detail">
     <div class="div2">
         <a href="#">返回</a>
@@ -45,4 +45,4 @@
 
 
 
-<%@include file="/views/comon/footer.jsp"%>
+<%@include file="/WEB-INF/views/comon/footer.jsp"%>
