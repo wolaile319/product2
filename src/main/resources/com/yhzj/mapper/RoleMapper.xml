@@ -43,4 +43,7 @@
     <update id="update" parameterType="com.yhzj.entity.Role"></update>
     <delete id="delete"></delete>
     <select id="findAll" resultType="com.yhzj.entity.Role"></select>
+    <select id="findById" resultType="com.yhzj.entity.Role">
+        select * from t_role where id=#{id}
+    </select>
 </mapper>

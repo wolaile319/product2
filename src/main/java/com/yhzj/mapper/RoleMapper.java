@@ -15,4 +15,6 @@ public interface RoleMapper {
     int delete(Integer id);
     int update(Role role);
     List<Role> findAll();
+
+    Role findById(Integer id);
 }

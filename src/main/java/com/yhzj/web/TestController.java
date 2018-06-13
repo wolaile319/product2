@@ -1,10 +1,14 @@
 package com.yhzj.web;
 
 import com.yhzj.annotation.NoLogin;
+import com.yhzj.service.RoleService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
+
+import javax.jws.WebParam;
 
 /**
  * 描述:
@@ -16,10 +20,14 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 @NoLogin
 public class TestController {
-    @GetMapping("staff/list")
-    public ModelAndView test(){
+    @Autowired
+    private RoleService roleService;
+
+    @GetMapping("test")
+    public ModelAndView testRole(){
         ModelAndView view=new ModelAndView();
-        view.setViewName("staff/list");
+        view.setViewName("test/test");
+        view.addObject("role",roleService.findById(1));
         return view;
     }
 }

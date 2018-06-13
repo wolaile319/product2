@@ -12,4 +12,5 @@ import org.springframework.stereotype.Service;
  */
 public interface RoleService {
     int insert(Role role);
+    Role findById(Integer id);
 }

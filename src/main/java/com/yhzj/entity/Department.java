@@ -25,5 +25,5 @@ public class Department extends BaseEntity {
     /**
      * 部门领导、负责人
      */
-    private Staff leader;
+    private String leader;
 }

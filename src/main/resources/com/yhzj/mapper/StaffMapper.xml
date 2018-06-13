@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.yhzj.mapper.StaffMapper">
+    <resultMap id="staff" type="com.yhzj.entity.Staff" autoMapping="true">
+        <id property="id" column="id"/>
+        <association property="job" javaType="com.yhzj.entity.Job" column="job_id"
+                     columnPrefix="job_" autoMapping="true">
+            <id property="id" column="id"/>
+            <association property="department" javaType="com.yhzj.entity.Department"
+                         column="job_department_id" columnPrefix="department_" autoMapping="true">
+                <id property="id" column="id"/>
+            </association>
+        </association>
+        <association property="salaryInfo" javaType="com.yhzj.entity.SalaryInfo"
+                     column="salary_info_id" columnPrefix="salary_info_" autoMapping="true">
+            <id property="id" column="id"/>
+        </association>
+        <association property="accumulationFund" javaType="com.yhzj.entity.AccumulationFund"
+                     column="accumulation_fund_id" columnPrefix="accumulation_fund_" autoMapping="true">
+            <id property="id" column="id"/>
+        </association>
+        <association property="socialSecurity" javaType="com.yhzj.entity.SocialSecurity"
+                     column="social_security_id" columnPrefix="social_security_" autoMapping="true">
+            <id property="id" column="id"/>
+        </association>
+    </resultMap>
+    <select id="findAll" resultMap="staff">
+        select t1.id   id,t1.`name`  `name`,t1.surname  surname,
+               t1.first_name  first_name,t1.id_type id_type,
+               t1.id_number id_number,t1.phone  phone,t1.job_number job_number,
+               t1.job  job,t1.qualification qualification,t1.`status` `status`,
+               t1.type  type,t1.entry_date entry_date ,t1.sex  sex,t1.birthday birthday,
+               t1.address address,t1.photo  photo,t1.leave_date  leave_date,
+               t1.national   national,t1.hukou_type   hukou_type,t1.hukou_address   hukou_address,
+               t1.living_address  living_address , t1.political  political ,t1.marital  marital  ,
+               t1.blood  blood ,t1.emergency_contact  emergency_contact,t1.emergency_phone   emergency_phone,
+               t1.email  email, t1.remark remark,t1.qq   qq ,t1.wechat wechat,
+               t1.social_security   social_security , t1.accumulation_fund  accumulation_fund,
+               t1.salary_info  salary_info ,t1.create_at   create_at, t1.update_at  update_at,
+               t1.version  version,
+              t2.id job_id ,t2.`name` job_name,t2.plan_count job_plan_count,
+               t2.working_count job_working_count,t2.qualification job_qualification,
+               t2.remark job_remark,t2.department job_department,t2.create_at job_create_at,
+               t2.update_at job_update_at,t2.version job_version,
+              t3.id job_department_id,t3.`name` job_department_name,
+               t3.working_count job_department_working_count,t3.plan_count job_department_plan_count,
+               t3.leader job_department_leader,t3.create_at job_department_create_at,
+               t3.update_at job_department_update_at,t3.version job_department_version,
+              t4.id salary_info_id,t4.start_salary  salary_info_start_salary,
+               t4.probation_salary salary_info_probation_salary,
+               t4.current_salary salary_info_current_salary,
+               t4.last_change_salary_time salary_info_last_change_salary_time,
+               t4.last_change_salary_money salary_info_last_change_salary_money,
+               t4.bank_name  salary_info_bank_name,t4.bank_card_no  salary_info_bank_card_no,
+               t4.create_at  salary_info_create_at,t4.update_at salary_info_update_at,
+               t4.version salary_info_version,
+               t5.id   accumulation_fund_id,t5.account  accumulation_fund_account,
+                t5.province  accumulation_fund_province,t5.city  accumulation_fund_city,
+                t5.start_time accumulation_fund_start_time,t5.create_at  accumulation_fund_create_at,
+                t5.update_at  accumulation_fund_update_at,t5.version  accumulation_fund_version,
+                t6.id   social_security_id,t6.account  social_security_account,
+               t6.province  social_security_province,t6.city  social_security_city,
+               t6.start_time social_security_start_time,t6.create_at  social_security_create_at,
+               t6.update_at  social_security_update_at,t6.version  social_security_version
+
+	    from t_staff t1
+	    left join t_job t2 on t1.job=t2.id
+        left join t_department t3 on t2.department=t3.id
+        left join t_salary_info t4 on t1.salary_info=t4.id
+        left join t_accumulation_fund t5 on t1.accumulation_fund=t5.id
+        left join t_social_security t6 on t1.social_security=t6.id
+
+    </select>
+</mapper>
