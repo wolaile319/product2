@@ -1,5 +1,9 @@
 
 <%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" %>
+<%
+    String base = request.getScheme() + "://" + request.getServerName() + ":" + request.getServerPort() + request.getContextPath() + "/";
+    pageContext.setAttribute("base", base);
+%>
 <%--登录页面--%>
 <html>
 <head>
@@ -8,6 +12,7 @@
     <meta http-equiv="Cache-Control" content="no-cache">
     <meta http-equiv="Expires" content="0">
     <title>后台管理</title>
+    <base href="${base}">
     <link href="css/login.css" rel="stylesheet" type="text/css" />
     <style>
         body {
@@ -18,9 +23,9 @@
 
 <body>
 <div class="login_box">
-    <div class="login_l_img"><img src="images/login-img.png" /></div>
+    <div class="login_l_img"><img src="./img/login-img.png" /></div>
     <div class="login">
-        <div class="login_logo"><a href="#"><img src="images/login_logo.png" /></a></div>
+        <div class="login_logo"><a href="#"><img src="./img/login_logo.png" /></a></div>
         <div class="login_name">
             <p>HR-人事管理系统</p>
         </div>

@@ -1,5 +1,6 @@
 
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" %>
+<%@ include file="/WEB-INF/views/comon/header.jsp"%>
 <%--修改密码页面--%>
 <p class="xgmm">登录账号：<span>1472582525</span></p>
 <div class="xg_jd">
@@ -22,3 +23,4 @@
         </div>
     </form>
 </div>
+<%@ include file="/WEB-INF/views/comon/footer.jsp"%>

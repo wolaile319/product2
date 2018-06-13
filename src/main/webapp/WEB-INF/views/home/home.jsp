@@ -1,7 +1,7 @@
 
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%--首页--%>
-<%-- 主体左边--%>
+<%@ include file="/WEB-INF/views/comon/header.jsp"%>
+<%-- home左边--%>
 <div class="home_zuo">
     <%--日期--%>
     <div class="home_riqi">
@@ -15,7 +15,6 @@
     <div class="home_kuaijie">
         <div class="home_kj_zuo">
             <div class="home_kj_zuo_shang">
-                <p></p>
                 <h4>快捷操作</h4>
                 <a href="#"></a>
             </div>
@@ -54,7 +53,7 @@
         </div>
     </div>
 </div>
-<%--主体右边--%>
+<%--home右边--%>
 <div class="home_you">
     <%--天气--%>
     <div class="home_tianqi">天气</div>
@@ -66,6 +65,7 @@
             <a href="#"></a>
         </div>
         <ul class="home_tx_gk">
+            <li><p><span>1</span>人</p>转正提醒</li>
             <li><p><span>1</span>人</p>劳动合同未签订</li>
         </ul>
     </div>
@@ -134,3 +134,4 @@
         </ul>
     </div>
 </div>
+<%@ include file="/WEB-INF/views/comon/footer.jsp"%>
