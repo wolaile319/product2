@@ -21,28 +21,32 @@
         <button class="layui-btn" id="btn1">筛选/排序</button>
         <button class="layui-btn" id="btn2">新增班次</button>
     </div>
-    <div>
+    <div class="biao-foot">
         <table class="layui-table" lay-even lay-skin="nob">
             <colgroup>
+                <col width="300px">
+                <col width="300px">
+                <col width="400px">
+                <col width="300px">
                 <col width="300px">
             </colgroup>
             <thred>
                 <tr>
-                    <th lay-data="">班次名称</th>
-                    <th>打卡规则</th>
-                    <th>出勤时间</th>
-                    <th>出勤时长</th>
-                    <th>操作</th>
+                    <td lay-data=""><span>班次名称</span></td>
+                    <td><span>打卡规则</span></td>
+                    <td><span>出勤时间</span></td>
+                    <td><span>出勤时长</span></td>
+                    <td><span>操作</span></td>
                 </tr>
             </thred>
             <tbody>
-            <tr>
-                <td>企业默认考勤组方案</td>
-                <td>固定班制</td>
-                <td>上下班：09：00--18：30;休息：12：00--13:30;</td>
-                <td>ds</td>
-                <td><button class="layui-btn"></button></td>
-            </tr>
+                <tr>
+                    <td>企业默认考勤组方案</td>
+                    <td>固定班制</td>
+                    <td>上下班：09：00--18：30;休息：12：00--13:30;</td>
+                    <td>ds</td>
+                    <td><button class="layui-btn"></button></td>
+                </tr>
             </tbody>
         </table>
     </div>

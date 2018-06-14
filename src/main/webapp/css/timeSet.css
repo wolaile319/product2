@@ -1,0 +1,60 @@
+.main{
+    width:1250px;
+    margin: 0 auto;
+}
+.biao-tou ul li{
+    display: block;
+}
+.biao-tou a{
+    color:green;
+    font-size:12px;
+}
+.biao-middle #btn1{
+    float: left;
+    color:#000;
+    background-color: #fff;
+    border:1px solid #f2f2f2;
+    border-radius: 5px;
+}
+.biao-middle #btn2{
+    float: right;
+    color:#fff;
+    border-radius: 5px;
+}
+.biao-foot td{
+    font-size:12px;
+}
+.biao-foot tr span{
+    color:#1c2438;!important;
+}
+#div1{
+    width: 60px;
+    height: 24px;
+    border-radius: 20px;
+    position: relative;
+}
+#div2{
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    position: absolute;
+    background: white;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.4);
+}
+.open1{
+    background: rgba(0,184,0,0.8);
+}
+.open2{
+    top:1px;
+    right: 1px;
+}
+.close1{
+    background: rgba(255,255,255,0.4);
+    border:3px solid rgba(0,0,0,0.15);
+    border-left: transparent;
+}
+.close2{
+    left: 0px;
+    top: 0px;
+    border:2px solid rgba(0,0,0,0.1);
+}
