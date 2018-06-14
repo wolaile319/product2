@@ -1,6 +1,6 @@
+/*
 package com.yhzj.handle;
 
-import com.yhzj.entity.Result;
 import com.yhzj.myexception.MyException;
 import com.yhzj.resultenum.ResultEnum;
 import com.yhzj.utils.ResultUtil;
@@ -11,11 +11,13 @@ import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+*/
 /**
  * 发生异常时，捕获异常
  * @author qinling
  * @version 2018/5/27 19:24
- */
+ *//*
+
 @ControllerAdvice
 @Component
 public class ExceptionHandle {
@@ -32,3 +34,4 @@ public class ExceptionHandle {
     }
 
 }
+*/

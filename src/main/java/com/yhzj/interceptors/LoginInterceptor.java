@@ -1,7 +1,6 @@
 package com.yhzj.interceptors;
 
 import com.alibaba.fastjson.JSON;
-import com.yhzj.entity.Result;
 import com.yhzj.resultenum.ResultEnum;
 import com.yhzj.utils.Constant;
 import com.yhzj.annotation.NoLogin;
@@ -80,7 +79,7 @@ public class LoginInterceptor implements HandlerInterceptor{
             }
             //没有登录。需要跳转到登录页面
             //如果是ajax请求
-            if (RequestType.isAjax(request)) {
+           /* if (RequestType.isAjax(request)) {
                 Result result=new Result();
                 //把需要的登录地址放入结果集中
                 result.setDate(url);
@@ -91,7 +90,7 @@ public class LoginInterceptor implements HandlerInterceptor{
             } else {
                 //如果是普通请求直接跳转登录页面,并保存当前的连接(request.getQueryString();该方发返回当前网页的查询字符串)
                 response.sendRedirect(request.getContextPath()+"/login?perv="+ URLEncoder.encode(url+"?"+request.getQueryString(),"utf8"));
-            }
+            }*/
             return false;
         }
         return true;

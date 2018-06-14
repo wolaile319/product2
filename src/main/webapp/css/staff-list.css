@@ -1,0 +1,317 @@
+@charset "utf-8";
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    font-size: 12px;
+    font-family: "微软雅黑";
+    color:#666;
+}
+a:hover{
+    text-decoration: none;
+}
+ul,
+ol,
+dl,
+li{
+    list-style: none;
+    display: inline-block;
+}
+/*****************************************************************/
+.body-detail .div1 form{
+    width: 48%;
+    height: 100%;
+    padding-top: 5px;
+    float: left;
+    margin-right: 120px;
+}
+/*.body-detail .div1 form>p{
+    width: 120px;
+    float: left;
+}*/
+
+.body-detail .div1{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+}
+.body-detail .div1>span{
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    margin-right: 441px;
+    color: #404040;
+    font-size: 16px;
+    position: relative;
+    cursor: pointer;
+}
+.body-detail .div1>span:hover{
+    color: #e56281;
+}
+.body-detail .div1>span>span:hover{
+    color: #e56281;
+}
+.body-detail .div1>span:hover i{
+    border-color: #e56281 transparent transparent transparent;
+}
+.body-detail .div1>span>i{
+    position: absolute;
+    bottom: 15px;
+    left: 100px;
+    width: 0;
+    height: 0;
+    border: 5px solid;
+    border-color: #999999 transparent transparent transparent;
+}
+.body-detail .div1>span:hover ul{
+    display: inline-block;
+}
+.body-detail .div1>span>ul{
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 120px;
+    border: 1px solid #c8e5bc;
+    border-radius: 5px;
+    background-color: white;
+    z-index: 10;
+    display: none;
+}
+.body-detail .div1>span>ul>li{
+    width: 100%;
+    height: 30px;
+}
+.body-detail .div1>span>ul>li>a{
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.body-detail .div1>span>ul>li>a:hover{
+    background-color: #e56281;
+    color: white;
+}
+.body-detail .div1>span>ul>li:first-of-type>a{
+    background-color: #e56281;
+    color: white;
+}
+
+.body-detail .div1>a{
+    display: inline-block;
+    width: 9%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 1px solid #e56281;
+    color: #e56281;
+    border-radius: 5px;
+}
+.body-detail .div1>a:hover{
+    color: white;
+    background-color: #cb5b6e;
+}
+/*-----------------------------------------------body-detail  div5-----------*/
+.body-detail .div5{
+    width: 100%;
+    height: 100px;
+}
+.body-detail .div5>ul{
+    height: 100%;
+    float: left;
+    border: 1px solid #dfdfdf;
+    border-radius: 5px;
+    position: relative;
+}
+.body-detail .div5>ul:nth-of-type(2){
+    margin: 0 21px;
+}
+.body-detail .div5>ul:first-of-type{
+    border: 1px solid #e56281;
+}
+.body-detail .div5>ul>li:hover{
+    background-color: #f2f2f2;
+}
+.body-detail .div5>ul:focus{
+    border-color: #e56281;
+}
+.body-detail .div5>ul>li{
+    width: 115px;
+    height: 100%;
+    float: left;
+}
+
+.body-detail .div5>ul>li:first-of-type>a{
+    border: none;
+}
+.body-detail .div5>ul:first-of-type>li:first-of-type{
+    width: 240px;
+}
+.body-detail .div5>ul:first-of-type>li:first-of-type>a{
+    font-size: 15px;
+}
+.body-detail .div5>ul>i{
+    position: absolute;
+    bottom: -4px;
+    right: -4px;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border: 8px solid;
+    border-color: transparent  transparent transparent #e4eeeb;
+    transform:rotate(45deg);
+}
+
+.body-detail .div5>ul>li>a{
+    width: 100%;
+    height: 70px;
+    line-height: 50px;
+    margin: 15px 0;
+    text-align: center;
+    display: inline-block;
+    border-left: 1px solid #d6f3ca;
+    color: #404040;
+    position: relative;
+    font-size: 13px;
+    padding: 0;
+}
+
+.body-detail .div5>ul>li>a>span{
+    position: absolute;
+    top: 43px;
+    left: 0;
+    width: 100%;
+    height: 15px;
+    line-height: 15px;
+    text-align: center;
+    display: inline-block;
+}
+/*---------------------------------------------------------*/
+.body-detail .div2{
+    width: 100%;
+    height:30px;
+}
+
+.body-detail .div2>ul{
+    width: 40%;
+    height: 100%;
+    padding: 5px 0;
+    float: right;
+}
+.body-detail .div2>ul>li{
+    cursor: pointer;
+    height: 20px;
+    line-height: 20px;
+    float: right;
+    text-align: center;
+    padding: 0 20px;
+    font-size: 12px;
+    color: #666666;
+    border-left: 1px solid #e3fad0;
+}
+
+.body-detail .div2 .div2li1{
+    position: relative;
+    padding-right: 25px;
+}
+.body-detail .div2 .div2li1>span{
+    content: '';
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border: 5px solid;
+    position: absolute;
+    top: 7px;
+    right: 6px;
+    border-color:#999  transparent transparent transparent;
+}
+.body-detail .div2 .div2li1:hover span{
+    border-color: #e56281 transparent transparent transparent;
+}
+.body-detail .div2>ul>li:hover{
+    color: #e56281;
+}
+.body-detail .div2 .div2li1:hover .ul-hidden{
+    display: inline-block;
+}
+.ul-hidden{
+    position: absolute;
+    top: 23px;
+    left: 0;
+    width: 110px;
+    height: 155px;
+    display: none;
+    border: 1px solid #e2e2e2;
+    border-radius: 3px;
+    padding: 2px 2px;
+    box-shadow: 0px 0px 3px #e8ffd5;
+    background-color: white;
+    z-index: 6;
+}
+.ul-hidden li{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    cursor: pointer;
+}
+.ul-hidden li:hover{
+    background-color: #e56281;
+    color: white;
+}
+.body-detail .div3{
+    width: 100%;
+}
+
+/*************************************************模态框--导入花名册*/
+.modal-footer>p{
+    width: 300px;
+    height: 25px;
+    line-height: 25px;
+    float: left;
+    font-size: 12px;
+    color: #999999;
+    margin-left: 10px;
+    text-align: left;
+}
+.modal-footer>p>a{
+    font-size: 12px;
+    color: #e56281;
+    margin-left: 5px;
+}
+.modal-footer>form{
+    float: right;
+    margin-right: 10px;
+    width: 120px;
+    height: 25px;
+    position: relative;
+}
+.modal-footer>form>input{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    z-index: 9;
+}
+.modal-footer>form>p{
+    width: 100%;
+    height: 100%;
+    line-height: 25px;
+    background-color: #e56281;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    top: 0;
+}

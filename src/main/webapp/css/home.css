@@ -1,0 +1,316 @@
+.home_zuo{
+    width:717px;
+    height:1000px;
+    float: left;
+    border-right:1px solid #ddd;
+    padding:0 43px;
+}
+.home_riqi{
+    height:411px;
+    padding: 48px 0;
+    position: relative;
+    border-bottom: 1px solid #ddd;
+}
+.home_riqi_zuo{
+    float: left;
+    width:449px;
+    height:410px;
+}
+.home_riqi_you{
+    float: right;
+    width:220px;
+    height:410px;
+}
+
+
+/*···········································日期有半边*/
+.home_reqi_right{
+    width:220px;
+    height:410px;
+    float: right;
+}
+
+
+
+
+
+/*············································快捷操作*/
+.home_kuaijie{
+    height:403px;
+    padding: 32px 0 0;
+}
+/*············································快捷操作左*/
+.home_kj_zuo{
+    float: left;
+    width:533px;
+}
+.home_kj_zuo_shang{
+    height:16px;
+    margin-bottom: 20px;
+}
+.home_kj_zuo_shang>p{
+    float: left;
+    width:3px;
+    height:16px;
+    background-color: #01AAED;
+}
+.home_kj_zuo_shang>h4{
+    float: left;
+    margin-bottom: 20px;
+    height: 16px;
+    padding-left: 16px;
+    line-height: 16px;
+    color: #51bea1;
+    font-size: 14px;
+    font-weight: normal;
+}
+.home_kj_zuo_shang>a{
+    display: inline-block;
+    float: right;
+    width:22px;
+    height:22px;
+    margin-right: 10px;
+    background: url("../images/shezhi.jpg") no-repeat;
+}
+.home_er{
+    list-style: none;
+}
+.home_er>li{
+    width: 101.25px;
+    height:101px;
+    float: left;
+    padding: 16px;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+}
+.home_er>li>div{
+    padding: 12px 0;
+    box-shadow: 0 3px 16px transparent;
+}
+.home_er>li>div:hover{
+    border-radius: 3px;
+    background-color: #d5edf7;
+}
+
+.home_li1{
+    background-position-y: -274px !important;
+}
+.home_li2{
+    background-position-y: -6px !important;
+}
+.home_li3{
+    background-position-y: -75px !important;
+}
+.home_li4{
+    background-position-y: -807px !important;
+}
+.home_li5{
+    background-position-y: -141px !important;
+}
+.home_li6{
+    background-position-y: -941px !important;
+}
+.home_li7{
+    background-position-y: -608px !important;
+}
+.home_li8{
+    background-position-y: -741px !important;
+}
+.home_li9{
+    background-position-y: -541px !important;
+}
+.home_li10{
+    background-position-y: -474px !important;
+}
+/*············································快捷操作右*/
+.home_kj_you{
+    border-left: 1px solid #eee;
+    width:135px;
+    height:435px;
+    padding-left: 24px;
+    float: left;
+}
+.home_you_ul{
+    list-style: none;
+    width: 100%;
+    height:399px;
+}
+.home_you_ul>li{
+    padding: 16px;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+}
+.home_you_ul>li>div{
+    max-width: 148px;
+    margin: 0 auto;
+    padding: 12px 0;
+    box-shadow: 0 3px 16px transparent;
+}
+.home_you_ul>li>div:hover{
+    border-radius: 3px;
+    background-color: #d5edf7;
+}
+.home_kj_ren{
+    width: 48px;
+    height: 48px;
+    margin: 0 auto 8px;
+    display: inline-block;
+    background-position-x: -10px !important;
+    background: url("../images/tubiao.png") no-repeat;
+}
+.home_kj_r1{  background-position-y: -1141px !important;  }
+.home_kj_r2{  background-position-y: -1274px !important;  }
+.home_kj_r3{  background-position-y: -1207px !important;  }
+/*····································································主体右边*/
+.home_you{
+    width:291px;
+    float: right;
+    height:1000px;
+    padding:0 27px;
+}
+/*·····································天气*/
+.home_tianqi{
+    margin-top:24px;
+    height:118px;
+}
+/*·····································人事提醒*/
+.home_tixing{
+    height:124px;
+    padding-top: 24px;
+    border-bottom: 1px solid #ddd;
+}
+.waibian{
+    margin-bottom: 32px;
+}
+.home_tx_gk{
+    height:77px;
+    list-style: none;
+}
+.home_tx_gk>li{
+    float: left;
+    width: 33.333%;
+    margin-bottom: 32px;
+    cursor: pointer;
+    color: #80848f;
+    font-size: 12px;
+}
+.home_tx_gk>li>p>span{
+    margin-right: 4px;
+    color: #1c2438;
+    font-size: 18px;
+    font-weight: bold;
+}
+/*·····································人事概况*/
+.home_gaikuang{
+    height:125px;
+    padding-top: 24px;
+}
+/*·····································员工信息完整率*/
+.home_yg_xx{
+    height:192px;
+
+}
+.home_yg_xx_da{
+    height:64px;
+    margin-bottom: 32px;
+}
+.yg_yuan{
+    float: left;
+    width:72px;
+    height: 64px;
+}
+.yg_zheng{
+    width:64px;
+    height:64px;
+    border-radius: 50%;
+    background-color: #c9cdce;
+    display: inline-block;
+    position: relative;
+}
+.yg_leiyuan{
+    width:44px;
+    height:44px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: inline-block;
+    position: absolute;
+    top:10px;
+    left: 10px;
+}
+.yg_baifenbi{
+    color: rgb(237, 63, 20);
+    height:16px;
+    width:44px;
+    position: absolute;
+    top:24px;
+    left: 10px;
+    text-align: center;
+}
+.yg_text{
+    float: left;
+    margin-left: 24px;
+}
+.yg_text>.p1{
+    margin: 8px 0;
+    color: #1c2438;
+    font-size: 16px;
+    font-weight: bold;
+}
+.yg_text>.p1>span{
+    color: rgb(237, 63, 20);
+    font-size: 18px;
+    font-weight: bold;
+}
+.yg_text>.p2{
+    color: #80848f;
+    font-size: 12px;
+}
+/*·····································用工风险度*/
+.home_ygfengxian{
+    height:111px;
+}
+.home_fx{
+    height:78px;
+    margin-bottom:32px;
+}
+.yg_fengx{
+    width:72px;
+    height:72px;
+    border:1px solid #eb7350;
+    border-radius: 50%;
+    position: relative;
+}
+.yg_zhongyuang{
+    width:68px;
+    height:68px;
+    background-color: #eb523a;
+    border-radius: 50%;
+    position: absolute;
+    top:2px;
+    left: 2px;
+}
+.yg_jibie{
+    width:68px;
+    height:20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top:24px;
+    left: 2px;
+}
+/*·································活动*/
+.home_huodong{
+    height:200px;
+    padding-top:32px;
+    border-top:1px solid#ddd;
+}
+.home_gengduo{
+    float: right;
+    cursor: pointer;
+    color: #ccc;
+    margin-right: 5px;
+}

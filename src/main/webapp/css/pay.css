@@ -1,0 +1,479 @@
+.pay_tou{
+    width:640px;
+    height:63px;
+}
+.time_tou>.time_zhong>.xc_nian_dianzi{
+    width:80px;
+}
+.xc_heji{
+    height:100px;
+    margin:0 40px 20px 40px;
+    border:1px solid #ccc;
+    border-radius: 8px;
+}
+.xc_heji>h1{
+    float: left;
+    text-align: center;
+    width:120px;
+    height:70px;
+    line-height: 70px;
+    margin:15px 0;
+    border-right: 1px solid #ddd;
+}
+.xc_heji>.xc_heji_xiang{
+    padding-left:30px;
+    float: left;
+    width:205px;
+    margin:20px 0;
+    height:60px;
+}
+.xc_heji_xiang>p{
+    color: #999;
+    margin-bottom: 17px;
+}
+.xc_heji_xiang>p>span{
+    color: #333;
+}
+.cx_shuju{
+    margin:0 40px;
+    border:1px solid #ccc;
+    border-radius: 8px;
+    height:400px;
+}
+.cx_shuju_nr{
+    margin:120px auto;
+    width:220px;
+    height:150px;
+}
+.cx_shuju_nr>.cx_tishi{
+    text-align: center;
+    font-size: 13px;
+    color: #aaa;    
+}
+
+/*···················历史工资*/
+.lishi_pay{
+    margin:0 30px;
+}
+.lishi_shuju{
+    display: none;
+    border:1px solid #ccc;
+    border-radius: 8px;
+    height:400px;
+}
+.lishi_shuju_nr{
+    margin:120px auto;
+    width:220px;
+    height:150px;
+}
+.lishi_shuju_nr>.lishi_tishi{
+    text-align: center;
+    font-size: 13px;
+    color: #aaa;
+}
+
+/*·····································薪酬报表*/
+.xc_bb{
+    margin-top:30px;
+}
+.xc_bb>.xc_3a{
+    height:30px;
+    margin-bottom: 30px;
+}
+.xc_bb>.xc_3a>.a1{
+    float: left;
+    display: inline-block;
+    width: 50px;
+    height:28px;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 0;
+}
+.xc_bb>.xc_3a>.aa{
+    margin-left:50px;
+    border-radius: 5px 0 0 5px;
+    border:1px solid rgb(229,89,129);
+}
+.xc_bb>.xc_3a>.ab{
+    border:1px solid #ccc;
+}
+.xc_bb>.xc_3a>.ac{
+    margin-right: 30px;
+    border-radius: 0 5px 5px 0;
+    border:1px solid #ccc;
+}
+.layui-input-inline1{
+    float: left;
+    width:80px;
+    display: block;
+}
+.layui-input-inline1>input{
+    height:30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.gz_yd_bb{
+    height: 200px;
+    margin-left: 50px;
+    display: block;
+}
+.rq_yy{
+    display: none;
+    width:70px;
+}
+
+/*····························薪酬设置*/
+
+.xcset_zhuti{
+    margin: 30px 0 0 30px;
+}
+.xcset_tou{
+    height:40px;
+    border-bottom: 1px solid #ccc;
+    padding-left: 30px;
+}
+.xcset_tou>.xcset_a1{
+    float: left;
+    width:120px;
+    height:40px;
+    line-height: 40px;
+    text-align: center;
+    color: rgb(229,89,129);
+    display: inline-block;
+}
+.xcset_tou>.xcset_a2{
+    float: left;
+    width:100px;
+    height:40px;
+    line-height: 40px;
+    text-align: center;
+    color:#aaa;
+    display: inline-block;
+}
+.xcset_tou>.a3{  color: #aaa;  }
+.xcset_shiyongzhinan>h3{
+    font-weight:bold;
+    margin-bottom: 20px;
+}
+.xcset_shiyongzhinan>h4{
+    color: #777;
+    font-size: 13px;
+    margin:0 0 10px 15px;
+}
+.xcset_shiyongzhinan>.h3{
+    margin: 40px 0 0 0;
+    height:45px;
+    border-bottom: 1px solid #ccc;
+}
+.xcset_shiyongzhinan>h5{
+    height:40px;
+    color: #777;
+    line-height: 40px;
+    font-size: 12px;
+    margin-left: 15px;
+}
+.xcset_xuanxiang {
+    border-style: solid;
+    border-width:1px 1px 1px 2px;
+    border-color: #ccc #ccc #ccc #e55981;
+    margin-bottom:30px;
+}
+.xcset_xuanxiang>.xcset_guding{
+    border-bottom: 1px dashed #ccc;
+    padding-left:15px;
+    height:45px;
+}
+.xcset_xuanxiang>.xcset_1{
+    background-color: #e4f2f7;
+}
+.xcset_xuanxiang>.xcset_noxian{
+    border-bottom: 0 ;
+}
+.xcset_xuanxiang>.xcset_guding>h3{
+    float: left;
+    height:45px;
+    color: #222;
+    font-weight: bold;
+    text-align: left;
+    line-height: 45px;
+    width:150px;
+}
+.xcset_xuanxiang>.xcset_guding>p{
+    height:45px;
+    line-height: 45px;
+    color: #666;
+    font-size: 13px;
+    text-align: center;
+    float: left;
+}
+.xcset_xuanxiang>.xcset_guding>.xcset_delete{
+    float: right;
+    width:100px;
+    display: inline-block;
+    height:45px;
+    margin-bottom: 0;
+    text-align: center;
+    color: rgb(229,89,129);
+    line-height: 45px;
+}
+.xcset_xuanxiang>.xcset_guding>h4{
+    float: left;
+    height:45px;
+    text-align: left;
+    color: #333;
+    line-height: 45px;
+    width:150px;
+}
+.xcset_xuanxiang>.xcset_guding>h4>span{
+    display: inline-block;
+    font-size: 12px;
+    width:40px;
+    text-align: center;
+    height:17px;
+    line-height: 17px;
+    color: #e55981;
+    border:1px solid #e55981;
+    border-radius: 3px;
+}
+.xcset_guding>a{
+    height:45px;
+}
+.xcset_xuanxiang>.xcset_guding>.xcset_save{
+    display: inline-block;
+    line-height: 45px;
+    width:150px;
+    text-align: left;
+    margin-bottom: 0;
+    color: #e55981;
+}
+.xcset_xuanxiang>.xcset_guding>.xcset_kaiguan{
+    margin: 10px 20px 0 0;
+    float: right;
+    display: block;
+    width:54px;
+    height:24px;
+    line-height: 24px;
+    border-radius:12px;
+    background-color: rgb(229,89,129);
+    padding:0 2px;
+}
+.xcset_xuanxiang>.xcset_guding>.xcset_kaiguan>p{
+    float: left;
+    font-size: 12px;
+    margin:0 4px;
+    color: #fff;
+}
+.xcset_xuanxiang>.xcset_guding>.xcset_kaiguan>span{
+    display: inline-block;
+    margin-top:2px;
+    float: right;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+#guanbi{
+    display: none;
+    background-color: #aaa;
+}
+#guanbi>p{
+    float: right;
+}
+#guanbi>span{
+    float: left;
+}
+#guanbi1{
+    display: none;
+    background-color: #aaa;
+}
+#guanbi1>p{
+    float: right;
+}
+#guanbi1>span{
+    float: left;
+}
+#yincang{
+    display: none;
+    background-color: #aaa;
+}
+#yincang>p{
+    float: right;
+}
+#yincang>span{
+    float: left;
+}
+
+.xc_jg_sz{
+    display: block;
+}
+
+/*·······················考勤计薪方案*/
+.xcset_xinfangan {
+    margin: 20px 50px;
+    float: right;
+}
+.xcset_xinfangan>.xin_jix_fa{
+    display: inline-block;
+    height:30px;
+    width:100px;
+    margin-bottom: 0;
+    font-size: 13px;
+    border-radius: 8px;
+    background-color: #e55981;
+    text-align: center;
+    color: #fff;
+    line-height: 30px;
+}
+.xz_biao{
+    clear: right;
+    margin-right:50px;
+}
+
+.kq_jx_fa{
+    display: none;
+}
+
+/*························计税方案*/
+
+.js_fa{
+    display: none;
+}
+
+.js_fa_biao{
+    margin-top:40px;
+}
+/*······················津补贴方案*/
+.j_bt_fa{
+    display: none;
+}
+.jin_bu_fa{
+    display: inline-block;
+    height:30px;
+    width:130px;
+    margin-bottom: 0;
+    font-size: 13px;
+    border-radius: 8px;
+    background-color: #e55981;
+    text-align: center;
+    color: #fff;
+    line-height: 30px;
+}
+/*·······················企业设置*/
+.qy_sz{
+    display: none;
+}
+.xuan_riqi{
+    display: block;
+    width:250px;
+    height:30px;
+    border: 1px solid #e55981;
+    padding:0 10px;
+    border-radius: 5px;
+    margin:0 0 20px 20px;
+}
+.xcset_shiyongzhinan>form>.h3{
+    font-weight: bold;
+    margin: 40px 0 0 0;
+    height: 45px;
+    border-bottom: 1px solid #ccc;
+}
+
+.xcset_shiyongzhinan>form>h5{
+    height: 40px;
+    color: #777;
+    line-height: 40px;
+    font-size: 12px;
+    margin-left: 15px;
+}
+.xcset_shiyongzhinan>form>.jbfax{
+    display: inline-block;
+    width:60px;
+    height:22px;
+    border-radius: 10px;
+    background-color: #e55981;
+    color: #fff;
+    margin:0 0 0 20px;
+}
+.xcset_shiyongzhinan>form>.jbfax>p{
+    margin:0 4px;
+    float: left;
+    height: 22px;
+    line-height: 22px;
+}
+.xcset_shiyongzhinan>form>.jbfax>span{
+    float: right;
+    width:18px;
+    height:18px;
+    border-radius: 9px;
+    background-color: #fff;
+    margin:2px 2px;
+}
+.xcset_shiyongzhinan>form>.jbfay{
+    display: none;
+    width:60px;
+    height:22px;
+    border-radius: 10px;
+    background-color: #cfcfd0;
+    color: #fff;
+    margin:0 0 0 20px;
+}
+.xcset_shiyongzhinan>form>.jbfay>p{
+    margin:0 4px;
+    float: right;
+    height: 22px;
+    line-height: 22px;
+}
+.xcset_shiyongzhinan>form>.jbfay>span{
+    float: left;
+    width:18px;
+    height:18px;
+    border-radius: 9px;
+    background-color: #fff;
+    margin:2px 2px;
+}
+.xcset_shiyongzhinan>form>label{
+    display: block;
+    margin:5px 0 5px 20px;
+    height:20px;
+    line-height: 20px;
+}
+.xcset_shiyongzhinan>form>label>span{
+    padding-left: 8px;
+    float: left;
+    display: inline-block;
+    height:20px;
+    line-height: 20px;
+}
+.xcset_shiyongzhinan>form>label>input{
+    float: left;
+    width: 15px;
+    height:15px;
+    margin-top:3px;
+}
+.xcset_shiyongzhinan>form>.xcset_tijiao{
+    display: block;
+    margin: 30px 20px 0 20px;
+    height:28px;
+    line-height: 28px;
+    width:50px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #e55981;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
