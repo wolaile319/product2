@@ -1,6 +1,5 @@
 package com.yhzj.utils;
 
-import com.yhzj.entity.Result;
 import com.yhzj.resultenum.ResultEnum;
 
 
