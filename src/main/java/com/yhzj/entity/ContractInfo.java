@@ -17,6 +17,10 @@ import java.util.Date;
 @Setter
 public class ContractInfo extends BaseEntity {
     /**
+     * 合同编号
+     */
+    private String contractNo;
+    /**
      * 合同类型
      */
     private ContractType type;

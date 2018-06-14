@@ -1,5 +1,6 @@
 package com.yhzj.mapper;
 
+import com.yhzj.entity.Role;
 import com.yhzj.entity.Staff;
 
 import java.util.List;
@@ -13,4 +14,5 @@ import java.util.List;
  */
 public interface StaffMapper {
     List<Staff> findAll();
+    int insert(Role role);
 }

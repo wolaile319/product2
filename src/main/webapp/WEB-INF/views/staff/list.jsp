@@ -105,7 +105,7 @@
             <div class="modal-footer">
                 <p>如遇到问题，请使用标准模板<a href="#">下载标准模板</a></p>
                 <form>
-                    <input type="file" name="file"/>
+                    <input type="file" name="file" id="excelFile"/>
                     <p>导入花名册</p>
                 </form>
             </div>
@@ -126,5 +126,19 @@
         $('#importStaffs').modal('show');
     }
 </script>
-
+<script>
+    $(function () {
+        $("#excelFile").change(function () {
+           console.log("change事件触发");
+            layer.msg('是否立即导入？', {
+                time: 0 //不自动关闭
+                ,btn: ['YES', 'NO']
+                ,yes: function(index){
+                    layer.close(index);
+                    $('#importStaffs').modal('hide');
+                }
+            });
+        });
+    });
+</script>
 <%@include file="/WEB-INF/views/comon/footer.jsp"%>

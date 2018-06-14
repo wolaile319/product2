@@ -17,7 +17,7 @@ public class Department extends BaseEntity {
     /**
      * 在职人数
      */
-    private Integer workCount;
+    private Integer workingCount;
     /**
      * 编制人数、部门计划人数
      */

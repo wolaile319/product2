@@ -1,16 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.yhzj.mapper.RoleMapper">
-
-    <insert id="save" parameterType="com.yhzj.entity.Role">
-        insert into t_role
+<mapper namespace="com.yhzj.mapper.DepartmentMapper">
+    <insert id="insert" parameterType="com.yhzj.entity.Department">
+        insert into t_department
         <trim prefix="(" suffixOverrides="," suffix=")">
             <if test="name != null and '' != name">
                 `name`,
             </if>
-            <if test="remark != null and '' != remark">
-                `remark`,
+            <if test="planCount != null">
+                `plan_count`,
             </if>
+            <if test="workingCount != null">
+                `working_count`,
+            </if>
+            <if test="leader != null and 0 != leader">
+                `leader`,
+            </if>
+
             <if test="createAt != null and '' != createAt">
                 `create_at`,
             </if>
@@ -24,11 +30,18 @@
         values
         <trim prefix="(" suffixOverrides="," suffix=")">
             <if test="name != null and '' != name">
-            #{name},
+                #{name},
             </if>
-            <if test="remark != null and '' != remark">
-                #{remark},
+            <if test="planCount != null">
+                #{planCount},
             </if>
+            <if test="workingCount != null">
+                #{workingCount},
+            </if>
+            <if test="leader != null and 0 != leader">
+                #{leader},
+            </if>
+
             <if test="createAt != null and '' != createAt">
                 #{createAt},
             </if>
@@ -40,10 +53,4 @@
             </if>
         </trim>
     </insert>
-    <update id="update" parameterType="com.yhzj.entity.Role"></update>
-    <delete id="delete"></delete>
-    <select id="findAll" resultType="com.yhzj.entity.Role"></select>
-    <select id="findById" resultType="com.yhzj.entity.Role">
-        select * from t_role where id=#{id}
-    </select>
 </mapper>

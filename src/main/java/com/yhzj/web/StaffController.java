@@ -33,4 +33,9 @@ public class StaffController {
         Job job = list.get(0).getJob();
         return model;
     }
+
+    @GetMapping("/add")
+    public String addView(){
+        return "staff/add";
+    }
 }
