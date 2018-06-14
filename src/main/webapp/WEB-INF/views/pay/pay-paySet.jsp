@@ -1,6 +1,17 @@
 
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" %>
+<%@ include file="/WEB-INF/views/comon/header.jsp"%>
 <%--薪酬设置页面--%>
+<div class="time_tou">
+    <div class="time_zhong pay_tou">
+        <a class="time_tou_1" href="">当月工资</a>
+        <a class="time_tou_1" href="">历史工资</a>
+        <a class="time_tou_1" href="">薪酬报表</a>
+        <a class="time_tou_1" href="">薪酬设置</a>
+        <a class="time_tou_1 xc_nian_dianzi" href="">年终奖计算</a>
+        <a class="time_tou_1 xc_nian_dianzi" href="">电子工资条</a>
+    </div>
+</div>
 <div class="xcset_tou">
     <a class="xcset_a1" id="xc_jg_sz" href="javascript:xinchou()">薪酬结构设置</a>
     <a class="xcset_a1 a3" id="kq_jx_fa" href="javascript:kaoqin()">考勤计薪方案</a>
@@ -359,3 +370,4 @@
         </div>
     </div>
 </div>
+<%@ include file="/WEB-INF/views/comon/footer.jsp"%>

@@ -1,6 +1,17 @@
 
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" %>
+<%@ include file="/WEB-INF/views/comon/header.jsp"%>
 <%--年终奖计算页面--%>
+<div class="time_tou">
+    <div class="time_zhong pay_tou">
+        <a class="time_tou_1" href="">当月工资</a>
+        <a class="time_tou_1" href="">历史工资</a>
+        <a class="time_tou_1" href="">薪酬报表</a>
+        <a class="time_tou_1" href="">薪酬设置</a>
+        <a class="time_tou_1 xc_nian_dianzi" href="">年终奖计算</a>
+        <a class="time_tou_1 xc_nian_dianzi" href="">电子工资条</a>
+    </div>
+</div>
 <div class="bonuses">
     <div class="bs_tou">
         <p class="bs_zhushi"><span>*</span> 年终奖计算指按全年一次性奖金计税规则进行计算。</p>
@@ -29,3 +40,4 @@
         <p>暂无数据</p>
     </div>
 </div>
+<%@ include file="/WEB-INF/views/comon/footer.jsp"%>

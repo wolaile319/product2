@@ -1,5 +1,6 @@
 
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" %>
+<%@ include file="/WEB-INF/views/comon/header.jsp"%>
 <%--个人设置--%>
 <div class="user_setting_zuo">
     <div class="st_zuo1">
@@ -101,3 +102,4 @@
         </div>
     </div>
 </div>
+<%@ include file="/WEB-INF/views/comon/footer.jsp"%>

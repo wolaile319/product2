@@ -1,5 +1,6 @@
 
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" %>
+<%@ include file="/WEB-INF/views/comon/header.jsp"%>
 <%--电子工资条页面--%>
 <div class="time_tou">
     <div class="time_zhong pay_tou">
@@ -53,3 +54,29 @@
         <table class="layui-hide" id="test"></table>
     </div>
 </div>
+<%@ include file="/WEB-INF/views/comon/footer.jsp"%>
+
+<script>
+    layui.use('table', function(){
+        var table = layui.table;
+        table.render({
+            elem: '#test'
+            ,url:'/demo/table/user/'
+            ,width: 1049
+            ,height: 332
+            ,cols: [[
+                {type:'checkbox', fixed: 'left'}
+                ,{field:'id', width:80, title: 'ID', sort: true, fixed: 'left'}
+                ,{field:'username', width:80, title: '用户名'}
+                ,{field:'sex', width:80, title: '性别', sort: true}
+                ,{field:'city', width:80, title: '城市'}
+                ,{field:'sign', width: 219, title: '签名'}
+                ,{field:'experience', width:80, title: '积分', sort: true}
+                ,{field:'score', width:80, title: '评分', sort: true}
+                ,{field:'classify', width:80, title: '职业'}
+                ,{field:'wealth', width:120, title: '财富', sort: true, fixed: 'right'}
+            ]]
+            ,page: true
+        });
+    });
+</script>

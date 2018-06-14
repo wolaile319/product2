@@ -88,6 +88,7 @@
     line-height: 28px;
     text-align: center;
     margin-bottom: 0;
+    color: #aaa;
 }
 .xc_bb>.xc_3a>.aa{
     margin-left:50px;
@@ -154,6 +155,7 @@
 .xcset_shiyongzhinan>h3{
     font-weight:bold;
     margin-bottom: 20px;
+    font-size: 18px;
 }
 .xcset_shiyongzhinan>h4{
     color: #777;
@@ -197,6 +199,8 @@
     text-align: left;
     line-height: 45px;
     width:150px;
+    font-size: 18px;
+    margin:0;
 }
 .xcset_xuanxiang>.xcset_guding>p{
     height:45px;
@@ -223,6 +227,8 @@
     color: #333;
     line-height: 45px;
     width:150px;
+    font-size: 16px;
+    margin: 0;
 }
 .xcset_xuanxiang>.xcset_guding>h4>span{
     display: inline-block;
@@ -260,7 +266,7 @@
 .xcset_xuanxiang>.xcset_guding>.xcset_kaiguan>p{
     float: left;
     font-size: 12px;
-    margin:0 4px;
+    margin:0 2px;
     color: #fff;
 }
 .xcset_xuanxiang>.xcset_guding>.xcset_kaiguan>span{
@@ -460,6 +466,212 @@
     border-radius: 5px;
     background-color: #e55981;
     color: #fff;
+}
+/*·················································电子工资条*/
+.payroll{
+    margin:30px 40px 0 60px;
+}
+.payroll_tou{
+    height:50px;
+}
+.payroll_tou>.pll_upload{
+    display: block;
+    width:80px;
+    height:30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 5px;
+    margin-right: 10px;
+    background-color: #e55981;
+    color: #fff;
+    float: right;
+}
+.payroll>.pll_yue{
+    margin:0 15px 0 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    height:30px;
+    line-height: 30px;
+    float: left;
+}
+.pll_huizong{
+    margin:50px 0 30px 0;
+    height: 66px;
+    border-radius: 8px;
+    border:1px solid #ccc;
+}
+.pll_heji {
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    width:100px;
+    height:64px;
+    margin:0;
+    line-height: 60px;
+    color: #333;
+    border-right: 1px solid #ccc;
+}
+.pll_mixi{
+    width:200px;
+    float: left;
+}
+.pll_mixi>.p1{
+    text-align: right;
+    margin-top:10px;
+    font-size: 14px;
+    color: #777;
+}
+.pll_mixi>.p1>span{
+    color: #333;
+    font-weight: bold;
+}
+.pll_biaotou{
+    height: 30px;
+}
+.pll_shijian{
+    float:left;
+}
+.pll_shijian>p{
+    text-align: center;
+    height: 24px;
+    line-height: 25px;
+    float: left;
+    color: #e55981;
+    width:100px;
+    border-radius: 8px 8px 0 0;
+    border-width: 1px;
+    border-color: #e55981 #e55981 transparent #e55981;
+    border-style: solid;
+}
+.pll_biaotou>.pll_xian{
+    float: right;
+    width:474px;
+    height:25px;
+    border-bottom: 1px solid #ccc;
+}
+.pll_biaotou>.pll_kong{
+    width:473px;
+    float: left;
+    height:25px;
+    border-bottom: 1px solid #ccc;
+}
+.pll_biaotou>.pll_kong>a{
+    cursor: pointer;
+    display: block;
+    font-size: 14px;
+    text-align: center;
+    line-height: 25px;
+    color: #666;
+    float: left;
+    margin:0  15px;
+}
+.pll_biaotou>.pll_kong>a:hover{
+    color: #e55981;
+}
+.pll_biaotou>.pll_xian>a{
+    cursor: pointer;
+    display: block;
+    font-size: 14px;
+    text-align: center;
+    line-height: 25px;
+    color: #666;
+    float: left;
+    margin:0  15px;
+}
+.pll_biaotou>.pll_xian>.a2{
+    float: right;
+}
+.pll_biaotou>.pll_xian>a:hover{
+    color: #e55981;
+}
+.pll_biaodan{
+    padding-top:10px;
+}
+/*·························································年终奖计算页面*/
+.bonuses{
+    margin:20px 40px 0 30px;
+}
+.bs_tou{
+    height:100px;
+    border-bottom: 1px solid #ccc;
+}
+.bs_tou>.bs_zhushi{
+    height: 50px;
+    line-height: 50px;
+    font-size: 13px;
+    color: #aaa;
+}
+.bs_tou>.bs_zhushi>span{
+    color: #eb7350;
+}
+.bs_tou>.bs_save{
+    float: right;
+    display: block;
+    width:100px;
+    height:30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #e55981;
+    border-radius: 8px;
+}
+.bs_shuju>.bs_jilu{
+    height:100px;
+    border-bottom: 1px solid #ccc;
+}
+.bs_shuju>.bs_jilu>h3{
+    float: left;
+    width:200px;
+    font-size: 20px;
+    text-align: left;
+    height:70px;
+    line-height: 58px;
+    font-weight: bold;
+    color: #333;
+    padding-left: 15px;
+}
+.bs_shuju>.bs_jilu>.div{
+    width:250px;
+    text-align: right;
+    float: left;
+}
+.bs_shuju>.bs_jilu>.div>.p1{
+    font-size: 15px;
+    text-align: right;
+    color: #999;
+    margin-top:30px;
+}
+.bs_shuju>.bs_jilu>.div>.p2{
+    font-size:15px;
+    text-align: right;
+    color: #444;
+    font-weight: bold;
+}
+.bs_shuju>.bs_jilu>.aa{
+    width:280px;
+    height:100px;
+    margin-right:30px;
+    float: right;
+    text-align: right;
+}
+.bs_shuju>.bs_jilu>.aa>.a1{
+    float: right;
+    display: block;
+    margin:40px 10px 0 0;
+    color: #e55981;
+}
+.bs_wujilu{
+    display: none;
+    margin:150px auto;
+    width:300px;
+    height:120px;
+    text-align: center;
+}
+.bs_wujilu>p{
+    color: #aaa;
 }
 
 

@@ -30,4 +30,13 @@ public class TestController {
         view.addObject("role",roleService.findById(1));
         return view;
     }
+    @GetMapping("login")
+    public String test1(){
+        return "login/login";
+    }
+
+    @GetMapping("home")
+    public String test2(){
+        return "home/home";
+    }
 }
